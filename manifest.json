@@ -3,7 +3,7 @@
     "description": "Tool for developers that adds a slim top bar when leaving the leaving local enviroment when developing, in order to avoid to do mistakes",
     "version": "2.0",
     "permissions": [
-        "activeTab"
+        "tabs"
     ],
     "background": {
         "scripts": ["background.js"],
