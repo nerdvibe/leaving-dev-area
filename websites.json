@@ -1,0 +1,12 @@
+{
+    "websites": [
+        {
+            "url": "the url",
+            "type": "staging"
+        },
+        {
+            "url": "the url",
+            "type": "staging"
+        }
+    ]
+}
