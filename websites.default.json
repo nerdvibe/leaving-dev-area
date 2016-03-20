@@ -1,0 +1,14 @@
+{
+    "websites": [
+        {
+            "url": "www.google.com",
+            "name": "staging",
+            "color": "Blue"
+        },
+        {
+            "url": "www.facebook.com",
+            "name": "staging",
+            "color": "red"
+        }
+    ]
+}
