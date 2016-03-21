@@ -1,13 +1,16 @@
 {
     "name": "Leaving-Dev-Area",
     "description": "Tool for developers that adds a slim top bar when leaving the leaving local enviroment when developing, in order to avoid to do mistakes",
-    "version": "2.0",
+    "version": "1.0",
     "permissions": [
+        "https://*/*",
+        "http://*/*",
         "tabs"
     ],
     "background": {
         "scripts": ["background.js"],
-        "persistent": false
+        "run_at": "document_end",
+        "persistent": true
     },
     "manifest_version": 2
 }
